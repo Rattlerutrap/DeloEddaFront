@@ -44,7 +44,7 @@ const Form = () => {
     setSubmitStatus(null);
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/applications/', formData);
+      const response = await axios.post('http://127.0.0.1:8000/application/', formData);
       console.log('Success:', response.data);
       setSubmitStatus('success');
       setFormData({
@@ -109,7 +109,7 @@ const Form = () => {
           />
         </p>
         <button type="submit" disabled={isSubmitting}>
-          {isSubmitting ? t('sending') : t('contactus.form.button')}
+          {isSubmitting ? t('contactus.form.buttonprocess') : t('contactus.form.button')}
         </button>
         {submitStatus === 'success' && (
           <p className="success-message">{t('Message sent success')}</p>
