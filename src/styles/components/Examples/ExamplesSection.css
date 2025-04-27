@@ -1,0 +1,65 @@
+.section {
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.large-image img {
+    width: auto;
+    height: 720px;
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 4/5;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-image-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small-image img {
+    width: auto;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.description h3 {
+    margin-top: 10px;
+}
+
+.description h4 {
+    margin-bottom: 0px;
+}
+
+.description p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.description .price {
+    color: black;
+}

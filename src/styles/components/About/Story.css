@@ -1,0 +1,35 @@
+.story {
+    display: flex;
+}
+
+.story img {
+    width: 100%;
+}
+
+.story h3 {
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.story h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.story p {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.story button {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.story button:hover {
+    color: var(--secondary-color);
+}

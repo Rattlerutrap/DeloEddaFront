@@ -1,0 +1,59 @@
+.philosophy {
+  padding: 80px 0;
+  background-color: white;
+  text-align: left;
+}
+
+.philosophy h2 {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.philosophy h3 {
+  font-weight: 600;
+  font-size: 70px;
+  padding-bottom: 30px;
+}
+
+.philosophy p {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: left;
+}
+
+.philosophy-content {
+  margin: 0 auto;
+}
+
+.philosophy-points {
+  margin-top: 50px;
+  display: grid;
+  gap: 30px;
+}
+
+.philosophy-points h4 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.philosophy-points p {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.philosophy-points img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.point {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.point-text {
+  display: inline-block;
+}

@@ -1,0 +1,42 @@
+.heroPortfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 100px;
+}
+
+.buttons-container {
+    padding-left: 100px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.heroPortfolio button {
+    padding: 12px 30px;
+    border: solid;
+    border-color: #F2861A;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    background-color: #F2861A5C;
+    transition: background-color 0.3s;
+}
+
+.heroPortfolio button:hover {
+    color: var(--primary-color);
+  }
+
+.heroPortfolio-content {
+    display: flex;
+    justify-content: center;
+}
+
+.heroPortfolio img {
+    padding: 10px;
+    width: 713px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}

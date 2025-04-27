@@ -1,0 +1,52 @@
+
+  
+  .text-content {
+    flex: 1;
+    max-width: 600px;
+  }
+
+  .text-content h1 {
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 50px;
+  }
+
+  .text-content h2 {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 90px;
+  }
+
+  .text-content p {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  .image-content {
+    flex: 1;
+  }
+  
+  .image-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ExploreDes {
+    background-color: var(--primary-color);
+    padding: 12px 30px;
+    border: solid;
+    border-color: #F2861A;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s;
+  }
+
+  .ExploreDes:hover {
+    background-color: #c0392b;
+  }

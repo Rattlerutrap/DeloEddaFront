@@ -1,0 +1,21 @@
+.shopContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.shopText {
+  background: #f0f0f0;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.textBlock p {
+    color: #828282;
+}

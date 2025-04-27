@@ -1,0 +1,35 @@
+.HeroShopSection h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.HeroShopSection p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.button1 {
+    color: white;
+    font-size: 24px;
+    background-color: black;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button2 {
+    color: black;
+    font-size: 24px;
+    background-color: #E6E6E6;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}

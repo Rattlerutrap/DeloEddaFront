@@ -1,0 +1,25 @@
+.processSection {
+    background: url('../../../images/rectangle.jpg');
+    background-size: 1000px 1450px;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left: 350px;
+}
+
+.content-section {
+    padding-left: 600px;
+}
+
+.content-section h1 {
+    font-size: 50px;
+}
+
+.content-section p {
+    font-size:  20px;
+    font-weight: 550;
+}
+
+.drop-cap {
+    font-size: 50px;
+    color: var(--primary-color);
+}
