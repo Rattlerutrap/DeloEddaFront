@@ -33,4 +33,5 @@
 
 .story button:hover {
     color: var(--secondary-color);
+    transition: background-color 0.3s;
 }
