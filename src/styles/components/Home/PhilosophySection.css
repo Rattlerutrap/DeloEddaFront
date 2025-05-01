@@ -52,6 +52,7 @@
   background: #f9f9f9;
   padding: 30px;
   border-radius: 8px;
+  display: flex; 
 }
 
 .point-text {
