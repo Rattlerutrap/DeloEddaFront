@@ -17,11 +17,11 @@ const Form = () => {
 
   const validate = () => {
     const newErrors = {};
-    if (!formData.name.trim()) newErrors.name = 'Name is required';
-    if (!formData.email.trim()) newErrors.email = 'Email is required';
-    else if (!/^\S+@\S+\.\S+$/.test(formData.email)) newErrors.email = 'Email is invalid';
-    if (!formData.phone.trim()) newErrors.phone = 'Phone is required';
-    else if (!/^(?:\+7|8)[0-9]{10}$/.test(formData.phone)) newErrors.phone = 'Phone format is invalid';
+    if (!formData.name.trim()) newErrors.name = t('contactus.form.error1');
+    if (!formData.email.trim()) newErrors.email = t('contactus.form.error2');
+    else if (!/^\S+@\S+\.\S+$/.test(formData.email)) newErrors.email = t('contactus.form.error3');
+    if (!formData.phone.trim()) newErrors.phone = t('contactus.form.error4');
+    else if (!/^(?:\+7|8)[0-9]{10}$/.test(formData.phone)) newErrors.phone = t('contactus.form.error5');
     
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -95,7 +95,7 @@ const Form = () => {
             name="phone" 
             value={formData.phone} 
             onChange={handleChange} 
-            placeholder="+71234567890 or 81234567890"
+            placeholder="+71234567890, 81234567890"
           />
           {errors.phone && <span className="error">{errors.phone}</span>}
         </p>
@@ -112,10 +112,10 @@ const Form = () => {
           {isSubmitting ? t('contactus.form.buttonprocess') : t('contactus.form.button')}
         </button>
         {submitStatus === 'success' && (
-          <p className="success-message">{t('Message sent success')}</p>
+          <p className="success-message">{t('contactus.form.success')}</p>
         )}
         {submitStatus === 'error' && (
-          <p className="error-message">{t('Message sent error')}</p>
+          <p className="error-message">{t('contactus.form.error')}</p>
         )}
       </form>
     </div>

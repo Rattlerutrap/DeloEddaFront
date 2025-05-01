@@ -122,13 +122,20 @@
     },
     "contactus": {
       "form": {
+        "error1":"Name is required",
+        "error2":"Email is required",
+        "error3":"Email is invalid",
+        "error4":"Phone is required",
+        "error5":"Phone format is invalid",
         "h2": "Application",
         "label1": "Name",
         "label2": "E-mail",
         "label3": "Phone number",
         "label4": "Message",
         "button": "Send",
-        "buttonprocess": "..."
+        "buttonprocess": "...",
+        "success": "Message sent success",
+        "error": "Message sent error"
       }
     },
     "header": {
