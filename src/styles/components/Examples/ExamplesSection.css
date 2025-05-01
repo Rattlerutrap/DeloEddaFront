@@ -56,10 +56,10 @@
 }
 
 .description p {
-    color: #666;
+    color: var(--text-light);
     line-height: 1.5;
 }
 
 .description .price {
-    color: black;
+    color: var(--text-color);
 }

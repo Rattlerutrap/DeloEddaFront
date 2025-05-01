@@ -19,7 +19,7 @@
     border-radius: 40px;
     font-size: 20px;
     cursor: pointer;
-    color: black;
+    color: var(--text-color);
     background-color: #F2861A5C;
     transition: background-color 0.3s;
 }

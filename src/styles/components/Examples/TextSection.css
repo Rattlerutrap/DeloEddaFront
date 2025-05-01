@@ -1,12 +1,12 @@
-.shopContainer {
+.examplesContainer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
 }
 
-.shopText {
-  background: #f0f0f0;
+.examplesText {
+  background: white;
 }
 
 .textBlock {
@@ -17,5 +17,5 @@
 }
 
 .textBlock p {
-    color: #828282;
+    color: var(--text-light);
 }
