@@ -26,6 +26,7 @@
 
 .heroPortfolio button:hover {
     color: var(--primary-color);
+    transition: background-color 0.3s;
   }
 
 .heroPortfolio-content {

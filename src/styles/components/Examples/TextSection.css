@@ -6,7 +6,7 @@
 }
 
 .examplesText {
-  background: white;
+  background: var(--back-color);
 }
 
 .textBlock {

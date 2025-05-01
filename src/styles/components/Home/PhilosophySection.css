@@ -49,7 +49,7 @@
 }
 
 .point {
-  background: white;
+  background: var(--back-color);
   padding: 30px;
   border-radius: 8px;
   display: flex; 
