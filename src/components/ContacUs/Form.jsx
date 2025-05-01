@@ -63,6 +63,7 @@ const Form = () => {
 
   return (
     <div className='container'>
+      <div className='form'>
       <h2>{t('contactus.form.h2')}</h2>
       <form onSubmit={handleSubmit}>
         <p>
@@ -118,6 +119,7 @@ const Form = () => {
           <p className="error-message">{t('contactus.form.error')}</p>
         )}
       </form>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,21 @@
+.form label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form button {
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 5px 10px;
+    border: 2px solid #cccccc;
+    border-radius: 25px;
+    background: var(--back-color);
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #c9c9c9;
+    transition: background-color 0.3s;
+}
