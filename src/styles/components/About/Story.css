@@ -3,7 +3,8 @@
 }
 
 .story img {
-    width: 100%;
+    width: 600px !important;
+    height: auto !important;
 }
 
 .story h3 {
