@@ -106,6 +106,7 @@ const Form = () => {
             id="message" 
             name="message" 
             value={formData.message} 
+            required
             onChange={handleChange} 
           />
         </p>
