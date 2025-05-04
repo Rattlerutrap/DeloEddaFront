@@ -8,14 +8,14 @@ const DesignSection = () => {
     return (
         <section className="designSection">
             <div className='container'>
-                <div class="content-block">
-                    <div class="text-content">
+                <div className="content-block">
+                    <div className="text-content">
                         <h1>{t('designportfolio.designes.h1')}</h1>
                         <h2>{t('designportfolio.designes.h2')}</h2>
                         <p>{t('designportfolio.designes.p')}</p>
                         <button className='ExploreDes'>{t('designportfolio.designes.button')}</button>
                     </div>
-                    <div class="image-content">
+                    <div className="image-content">
                         <img src={example} alt="Example"/>
                     </div>
                 </div>

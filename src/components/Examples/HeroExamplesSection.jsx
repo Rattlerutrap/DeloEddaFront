@@ -10,8 +10,8 @@ const HeroExamplesSection = () => {
     return (
         <section className="HeroExamplesSection">
             <div className='container'>
-                <div class="content-block">
-                    <div class="text-content">
+                <div className="content-block">
+                    <div className="text-content">
                         <h1>{t('examples.hero.h11')}</h1>
                         <p>{t('examples.hero.p1')}</p>
                         <div className='buttons'>
@@ -19,19 +19,19 @@ const HeroExamplesSection = () => {
                             <button className='button2'>{t('examples.hero.button2')}</button>
                         </div>
                     </div>
-                    <div class="image-content">
+                    <div className="image-content">
                         <Link to='/examples/productdetailpage'>
                             <img src={shop1} alt="Example" />
                         </Link>
                     </div>
                 </div>
-                <div class="content-block">
-                    <div class="image-content">
+                <div className="content-block">
+                    <div className="image-content">
                         <Link to='/examples/productdetailpage'>
                             <img src={shop2} alt="Example" />
                         </Link>
                     </div>
-                    <div class="text-content">
+                    <div className="text-content">
                         <h1>{t('examples.hero.h12')}</h1>
                         <p>{t('examples.hero.p2')}</p>
                         <div className='buttons'>
