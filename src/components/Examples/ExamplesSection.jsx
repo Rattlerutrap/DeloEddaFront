@@ -15,7 +15,7 @@ const ExamplesSection = () => {
                 <div className="grid-layout">
                     <div className="left-column">
                         <div className="large-image">
-                            <Link to='/examples/productdetailpage'>
+                            <Link to='/examples/productdetailpage/1'>
                                 <img src={good1} alt="Большое изображение" />
                             </Link>
                         </div>
@@ -28,7 +28,7 @@ const ExamplesSection = () => {
                     <div className="right-column">
                         <div className="small-image-item">
                             <div className="small-image">
-                                <Link to='/examples/productdetailpage'>
+                                <Link to='/examples/productdetailpage/2'>
                                     <img src={good2} alt="Маленькое изображение 1" />
                                 </Link>
                             </div>
@@ -41,7 +41,7 @@ const ExamplesSection = () => {
 
                         <div className="small-image-item">
                             <div className="small-image">
-                                <Link to='/examples/productdetailpage'>
+                                <Link to='/examples/productdetailpage/3'>
                                     <img src={good3} alt="Маленькое изображение 2" />
                                 </Link>
                             </div>

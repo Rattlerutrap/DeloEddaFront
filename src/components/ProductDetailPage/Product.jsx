@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import '../../styles/components/ProductDetailPage/Product.css';
 import Rectangle from '../../images/rectangle.jpg'
 import axios from 'axios';
@@ -6,13 +7,14 @@ import { useTranslation } from 'react-i18next';
 import { API_URL } from '../../index';
 
 const Product = () => {
+    const { id } = useParams();
     const { t } = useTranslation();
     const [product, setProduct] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        axios.get(API_URL + '1')
+        axios.get(API_URL + id)
             .then(response => {
                 setProduct(response.data);
                 setLoading(false);
@@ -21,7 +23,7 @@ const Product = () => {
                 setError(err.message);
                 setLoading(false);
             });
-    }, []);
+    }, [id]);
 
     if (loading) {
         return <div>Loading...</div>;

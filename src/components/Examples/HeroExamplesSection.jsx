@@ -20,14 +20,14 @@ const HeroExamplesSection = () => {
                         </div>
                     </div>
                     <div className="image-content">
-                        <Link to='/examples/productdetailpage'>
+                        <Link to='/examples/productdetailpage/1'>
                             <img src={shop1} alt="Example" />
                         </Link>
                     </div>
                 </div>
                 <div className="content-block">
                     <div className="image-content">
-                        <Link to='/examples/productdetailpage'>
+                        <Link to='/examples/productdetailpage/2'>
                             <img src={shop2} alt="Example" />
                         </Link>
                     </div>

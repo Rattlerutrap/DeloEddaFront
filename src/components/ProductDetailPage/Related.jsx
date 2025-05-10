@@ -53,7 +53,7 @@ const Related = () => {
                 <div className="products-grid">
                     {products.map(product => (
                         <div className="photo-card" key={product.id}>
-                            <Link to={`/shop/products/${product.id}`}>
+                            <Link to={`/examples/productdetailpage/${product.id}`}>
                                 <img src={product.img} alt={product.title} />
                             </Link>
                             <div className="description">

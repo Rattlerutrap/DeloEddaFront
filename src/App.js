@@ -23,7 +23,7 @@ function App() {
             <Route path="/examples" element={<Examples />} />
             <Route path="/design-portfolio" element={<DesignPortfolio />} />
             <Route path="/about" element={<About />} />
-            <Route path="/examples/productdetailpage" element={<ProductDetailPage />} />
+            <Route path="/examples/productdetailpage/:id" element={<ProductDetailPage />} />
             <Route path="/contact" element={<ContactUs />} />
           </Routes>
         </main>
