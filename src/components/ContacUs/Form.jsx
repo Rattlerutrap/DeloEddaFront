@@ -62,12 +62,12 @@ const Form = () => {
   };
 
   return (
-    <div className='container'>
-      <div className='form'>
-      <h2>{t('contactus.form.h2')}</h2>
-      <form onSubmit={handleSubmit}>
-        <p>
-          <label htmlFor="name">{t('contactus.form.label1')}</label>
+    <div className='form-container'>
+      <div className='form-card'>
+      <h2 className='form-title'>{t('contactus.form.h2')}</h2>
+      <form onSubmit={handleSubmit} className='contact-form'>
+        <div className='form-group'>
+          <label htmlFor="name" className='form-label'>{t('contactus.form.label1')}</label>
           <input 
             type="text" 
             id="name" 
@@ -76,9 +76,9 @@ const Form = () => {
             onChange={handleChange} 
           />
           {errors.name && <span className="error">{errors.name}</span>}
-        </p>
-        <p>
-          <label htmlFor="email">{t('contactus.form.label2')}</label>
+        </div>
+        <div className='form-group'>
+          <label htmlFor="email" className='form-label'>{t('contactus.form.label2')}</label>
           <input 
             type="email" 
             id="email" 
@@ -87,9 +87,9 @@ const Form = () => {
             onChange={handleChange} 
           />
           {errors.email && <span className="error">{errors.email}</span>}
-        </p>
-        <p>
-          <label htmlFor="phone">{t('contactus.form.label3')}</label>
+        </div>
+        <div className='form-group'>
+          <label htmlFor="phone" className='form-label'>{t('contactus.form.label3')}</label>
           <input 
             type="tel" 
             id="phone" 
@@ -99,9 +99,9 @@ const Form = () => {
             placeholder="+71234567890, 81234567890"
           />
           {errors.phone && <span className="error">{errors.phone}</span>}
-        </p>
-        <p>
-          <label htmlFor="message">{t('contactus.form.label4')}</label>
+        </div>
+        <div className='form-group'>
+          <label htmlFor="message" className='form-label'>{t('contactus.form.label4')}</label>
           <textarea
             id="message" 
             name="message" 
@@ -109,15 +109,15 @@ const Form = () => {
             required
             onChange={handleChange} 
           />
-        </p>
+        </div>
         <button type="submit" disabled={isSubmitting}>
           {isSubmitting ? t('contactus.form.buttonprocess') : t('contactus.form.button')}
         </button>
         {submitStatus === 'success' && (
-          <p className="success-message">{t('contactus.form.success')}</p>
+          <div className="success-message">{t('contactus.form.success')}</div>
         )}
         {submitStatus === 'error' && (
-          <p className="error-message">{t('contactus.form.error')}</p>
+          <div className="error-message">{t('contactus.form.error')}</div>
         )}
       </form>
       </div>
