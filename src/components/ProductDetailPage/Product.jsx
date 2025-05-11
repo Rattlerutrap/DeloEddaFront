@@ -18,6 +18,7 @@ const Product = () => {
             .then(response => {
                 setProduct(response.data);
                 setLoading(false);
+                console.log('Success:', response.data);
             })
             .catch(err => {
                 setError(err.message);
