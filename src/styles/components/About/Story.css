@@ -35,3 +35,33 @@
     color: var(--secondary-color);
     transition: background-color 0.3s;
 }
+
+.text-container {
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.text-content {
+    position: absolute;
+    width: 100%;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.text-content.active {
+    opacity: 1;
+    transform: translateX(0);
+    position: relative;
+}
+
+.text-content.exiting {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.text-content.entering {
+    opacity: 1;
+    transform: translateX(0);
+}

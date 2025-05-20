@@ -98,7 +98,9 @@
         "p1": "At DEL O DEEA, we blend artistry and functionality to redefine modern living spaces.",
         "p2": "Our designs are born from a passion for innovation and a commitment to sustainability.",
         "p3": "We believe that great furniture isn't just about aesthetics—it's about creating experiences that inspire.",
-        "button": "Discover Our Story"
+        "p_alt": "Unreal story about company",
+        "button1": "Discover Our Story →",
+        "button2": "←  Our Philosophy"
       },
       "team": {
         "h1": "Our professional team",
