@@ -25,7 +25,7 @@ const Story = () => {
                         <img src={Rectangle} alt="rect" />
                     </div>
                     <div className="text-container">
-                        <div className={`text-content ${currentText === 1 ? 'active' : ''} ${isAnimating ? 'exiting' : ''}`}>
+                        <div className={`text-content-story ${currentText === 1 ? 'active' : ''} ${isAnimating ? 'exiting' : ''}`}>
                             <h3>{t('about.story.h3')}</h3>
                             <h2>{t('about.story.h2')}</h2>
                             <p>{t('about.story.p1')}</p>
@@ -33,7 +33,7 @@ const Story = () => {
                             <p>{t('about.story.p3')}</p>
                         </div>
                         
-                        <div className={`text-content ${currentText === 2 ? 'active' : ''} ${isAnimating ? 'entering' : ''}`}>
+                        <div className={`text-content-story ${currentText === 2 ? 'active' : ''} ${isAnimating ? 'entering' : ''}`}>
                             <p>{t('about.story.p_alt')}</p>
                         </div>
                         <button onClick={handleButtonClick}>

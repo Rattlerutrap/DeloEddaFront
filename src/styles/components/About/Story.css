@@ -42,7 +42,7 @@
     min-height: 400px;
 }
 
-.text-content {
+.text-content-story {
     position: absolute;
     width: 100%;
     transition: transform 0.5s ease, opacity 0.5s ease;
@@ -50,18 +50,18 @@
     transform: translateX(100%);
 }
 
-.text-content.active {
+.text-content-story.active {
     opacity: 1;
     transform: translateX(0);
     position: relative;
 }
 
-.text-content.exiting {
+.text-content-story.exiting {
     opacity: 0;
     transform: translateX(-100%);
 }
 
-.text-content.entering {
+.text-content-story.entering {
     opacity: 1;
     transform: translateX(0);
 }
