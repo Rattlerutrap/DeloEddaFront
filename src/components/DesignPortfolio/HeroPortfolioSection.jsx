@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../styles/components/DesignPortfolio/HeroPortfolioSection.css';
 import portfolio1 from '../../images/portfolio1.png'
 import portfolio2 from '../../images/portfolio2.png'
@@ -10,8 +11,10 @@ const HeroPortfolioSection = () => {
         <section className="heroPortfolio">
             <div className='container'>
                 <div className="buttons-container">
-                    <button>{t('designportfolio.hero.button1')}</button>
-                    <button>{t('designportfolio.hero.button2')}</button>
+                    <Link to='/examples'>
+                        <button>{t('designportfolio.hero.button1')}</button>
+                    </Link>
+                    {/* <button>{t('designportfolio.hero.button2')}</button> */}
                 </div>
                 <div className="heroPortfolio-content">
                     <img src={portfolio1} alt="portfolio1" />

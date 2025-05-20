@@ -15,8 +15,10 @@ const HeroExamplesSection = () => {
                         <h1>{t('examples.hero.h11')}</h1>
                         <p>{t('examples.hero.p1')}</p>
                         <div className='buttons'>
-                            <button className='button1'>{t('examples.hero.button1')}</button>
-                            <button className='button2'>{t('examples.hero.button2')}</button>
+                            <Link to='/examples/productdetailpage/1'>
+                                <button className='button1'>{t('examples.hero.button1')}</button>
+                            </Link>
+                            {/* <button className='button2'>{t('examples.hero.button2')}</button> */}
                         </div>
                     </div>
                     <div className="image-content">
@@ -35,8 +37,10 @@ const HeroExamplesSection = () => {
                         <h1>{t('examples.hero.h12')}</h1>
                         <p>{t('examples.hero.p2')}</p>
                         <div className='buttons'>
-                            <button className='button1'>{t('examples.hero.button1')}</button>
-                            <button className='button2'>{t('examples.hero.button2')}</button>
+                            <Link to='/examples/productdetailpage/1'>
+                                <button className='button1'>{t('examples.hero.button1')}</button>
+                            </Link>
+                            {/* <button className='button2'>{t('examples.hero.button2')}</button> */}
                         </div>
                     </div>
                 </div>
