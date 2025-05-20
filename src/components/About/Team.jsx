@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/components/About/Team.css';
-import master from '../../images/rectangle.jpg'
-import manager from '../../images/rectangle.jpg'
+import master from '../../images/master.jpg'
+import manager from '../../images/manager.jpg'
 import { useTranslation } from 'react-i18next';
 
 const Team = () => {
