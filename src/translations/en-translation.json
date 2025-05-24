@@ -48,16 +48,7 @@
         "button2": "Explore Design"
       },
       "examples": {
-        "h1": "Section heading",
-        "h41": "Featured product",
-        "p11": "Description of top product",
-        "p12": "$10.99",
-        "h42": "Product",
-        "p21": "Description of top product",
-        "p22": "$10.99",
-        "h43": "Product",
-        "p31": "Description of top product",
-        "p32": "$10.99"
+        "h1": "Examples"
       },
       "text": {
         "h1": "Section heading",
@@ -98,7 +89,7 @@
         "p1": "At DEL O DEEA, we blend artistry and functionality to redefine modern living spaces.",
         "p2": "Our designs are born from a passion for innovation and a commitment to sustainability.",
         "p3": "We believe that great furniture isn't just about aesthetics—it's about creating experiences that inspire.",
-        "p_alt": "Unreal story about company",
+        "p_alt": "Edd's loft furniture workshop grew from his diverse background - childhood DIY projects, working at VAZ car plant, creating advertising signs, and completing furniture design courses. His most ambitious project was \"Dinoland\" park featuring rope courses and amphitheater furniture. Now crafting custom pieces while battling workshop space limits and cold weather, Edd thrives on unconventional challenges. His motto: \"Believe in yourself and do what no one else has done!\"",
         "button1": "Discover Our Story →",
         "button2": "←  Our Philosophy"
       },
@@ -154,27 +145,33 @@
     "products": {
       "product1": {
         "title": "Bar Counter",
-        "description": "An elegant and convenient solution for homes or commercial spaces. Can be made from wood, metal, or composite materials, with optional lighting and storage shelves."
+        "description": "An elegant and convenient solution for homes or commercial spaces. Can be made from wood, metal, or composite materials, with optional lighting and storage shelves.",
+        "price": "$274.99"
       },
       "product2": {
         "title": "Decorative Coat Rack",
-        "description": "A blend of functionality and aesthetics. Ideal for hanging clothes, hats, and accessories while enhancing the room’s decor."
+        "description": "A blend of functionality and aesthetics. Ideal for hanging clothes, hats, and accessories while enhancing the room’s decor.",
+        "price": "$75.99"
       },
       "product3": {
         "title": "Hooks",
-        "description": "Practical yet stylish accessories for hallways, bathrooms, or closets. Available in various designs."
+        "description": "Practical yet stylish accessories for hallways, bathrooms, or closets. Available in various designs.",
+        "price": "$17.99"
       },
       "product4": {
         "title": "Wooden Statuette",
-        "description": "A unique decor piece that adds warmth and charm to any interior. Handcrafted from natural wood with elegant designs, making it a perfect gift or a striking shelf accent."
+        "description": "A unique decor piece that adds warmth and charm to any interior. Handcrafted from natural wood with elegant designs, making it a perfect gift or a striking shelf accent.",
+        "price": "$35.99"
       },
       "product5": {
         "title": "Company Logo",
-        "description": "A stylish and professional solution for corporate branding. Can be crafted in various styles for display in reception areas, meeting rooms, or as a gift to partners."
+        "description": "A stylish and professional solution for corporate branding. Can be crafted in various styles for display in reception areas, meeting rooms, or as a gift to partners.",
+        "price": "$95.99"
       },
       "product6": {
         "title": "Emblem Frame",
-        "description": "An exquisite interior decoration that emphasizes status and individuality. Perfect for offices, living rooms, and corporate spaces. Made from high-quality materials with detailed craftsmanship."
+        "description": "An exquisite interior decoration that emphasizes status and individuality. Perfect for offices, living rooms, and corporate spaces. Made from high-quality materials with detailed craftsmanship.",
+        "price": "$65.99"
       }
     }
   }

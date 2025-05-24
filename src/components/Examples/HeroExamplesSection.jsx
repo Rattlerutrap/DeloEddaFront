@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/components/Examples/HeroExamplesSection.css';
 import { Link } from 'react-router-dom';
 import shop1 from '../../images/good1.jpg'
-import shop2 from '../../images/good2.jpg'
+import shop2 from '../../images/good5.jpg'
 import { useTranslation } from 'react-i18next';
 
 const HeroExamplesSection = () => {
@@ -13,7 +13,7 @@ const HeroExamplesSection = () => {
                 <div className="content-block">
                     <div className="text-content">
                         <h1>{t('examples.hero.h11')}</h1>
-                        <p>{t('examples.hero.p1')}</p>
+                        <p>{t('products.product1.title')}</p>
                         <div className='buttons'>
                             <Link to='/examples/productdetailpage/1'>
                                 <button className='button1'>{t('examples.hero.button1')}</button>
@@ -29,15 +29,15 @@ const HeroExamplesSection = () => {
                 </div>
                 <div className="content-block">
                     <div className="image-content">
-                        <Link to='/examples/productdetailpage/2'>
+                        <Link to='/examples/productdetailpage/5'>
                             <img src={shop2} alt="Example" />
                         </Link>
                     </div>
                     <div className="text-content">
                         <h1>{t('examples.hero.h12')}</h1>
-                        <p>{t('examples.hero.p2')}</p>
+                        <p>{t('products.product5.title')}</p>
                         <div className='buttons'>
-                            <Link to='/examples/productdetailpage/1'>
+                            <Link to='/examples/productdetailpage/5'>
                                 <button className='button1'>{t('examples.hero.button1')}</button>
                             </Link>
                             {/* <button className='button2'>{t('examples.hero.button2')}</button> */}

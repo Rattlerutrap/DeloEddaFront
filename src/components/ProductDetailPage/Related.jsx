@@ -2,12 +2,12 @@
 import '../../styles/components/ProductDetailPage/Related.css';
 import { Link } from 'react-router-dom';
 // import axios from 'axios';
-import good6 from '../../images/good1.jpg';
-import good5 from '../../images/good2.jpg';
-import good4 from '../../images/good3.jpg';
-import good3 from '../../images/good4.jpg';
-import good2 from '../../images/good5.jpg';
-import good1 from '../../images/good6.jpg';
+import good6 from '../../images/good6.jpg';
+import good5 from '../../images/good5.jpg';
+import good4 from '../../images/good4.jpg';
+import good3 from '../../images/good3.jpg';
+import good2 from '../../images/good2.jpg';
+import good1 from '../../images/good1.jpg';
 
 import { useTranslation } from 'react-i18next';
 // import { API_URL } from '../../index';
@@ -15,13 +15,13 @@ import { useTranslation } from 'react-i18next';
 const Related = () => {
     const { t } = useTranslation();
     const products = [
-        { id: 1, img: good1, title: t('products.product1.title'), price: 19.99 },
-        { id: 2, img: good2, title: t('products.product2.title'), price: 24.99 },
-        { id: 3, img: good3, title: t('products.product3.title'), price: 29.99 },
-        { id: 4, img: good4, title: t('products.product4.title'), price: 14.99 },
-        { id: 5, img: good5, title: t('products.product5.title'), price: 34.99 },
-        { id: 6, img: good6, title: t('products.product6.title'), price: 9.99 }
-    ];
+            { id: 1, img: good1, title: t('products.product1.title'), price: t('products.product1.price'), description: t('products.product1.description') },
+            { id: 2, img: good2, title: t('products.product2.title'), price: t('products.product2.price'), description: t('products.product2.description') },
+            { id: 3, img: good3, title: t('products.product3.title'), price: t('products.product3.price'), description: t('products.product3.description') },
+            { id: 4, img: good4, title: t('products.product4.title'), price: t('products.product4.price'), description: t('products.product4.description') },
+            { id: 5, img: good5, title: t('products.product5.title'), price: t('products.product5.price'), description: t('products.product5.description') },
+            { id: 6, img: good6, title: t('products.product6.title'), price: t('products.product6.price'), description: t('products.product6.description') }
+        ];
     // const [products, setProducts] = useState([]);
     // const [loading, setLoading] = useState(true);
     // const [error, setError] = useState(null);
@@ -65,7 +65,7 @@ const Related = () => {
                             </Link>
                             <div className="description">
                                 <h3>{product.title}</h3>
-                                <p>${Number(product.price).toFixed(2)}</p>
+                                <p>{product.price}</p>
                             </div>
                         </div>
                     ))}
