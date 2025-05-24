@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../styles/components/Examples/ExamplesSection.css';
 import { Link } from 'react-router-dom';
-import good1 from '../../images/good1.jpg'
-import good2 from '../../images/good2.jpg'
-import good3 from '../../images/good3.jpg'
+import good1 from '../../images/good3.jpg'
+import good2 from '../../images/good4.jpg'
+import good3 from '../../images/good5.jpg'
 import { useTranslation } from 'react-i18next';
 
 const ExamplesSection = () => {

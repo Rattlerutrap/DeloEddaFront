@@ -15,6 +15,13 @@ const Form = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
+  // const getCsrfToken = async () => {
+  //   const response = await axios.get('http://127.0.0.1:8000/api/csrf/', {
+  //     withCredentials: true
+  //   });
+  //   return response.data.csrfToken;
+  // };
+
   const validate = () => {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = t('contactus.form.error1');
@@ -44,6 +51,8 @@ const Form = () => {
     setSubmitStatus(null);
 
     try {
+      // const csrfToken = await getCsrfToken();
+      // console.log(response);
       const response = await axios.post('http://127.0.0.1:8000/application/', formData);
       console.log('Success:', response.data);
       setSubmitStatus('success');

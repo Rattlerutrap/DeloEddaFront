@@ -117,9 +117,7 @@
         "p2": "Body text for describing what this product is and why this product is simply a must-buy."
       },
       "related": {
-        "h1": "See also",
-        "h3": "",
-        "p": ""
+        "h1": "See also"
       }
     },
     "contactus": {
@@ -152,5 +150,31 @@
       "h4": "Contact Us",
       "p1": "Innovative Furniture Designs",
       "p2": "DELO EDDA. All rights reserved."
+    },
+    "products": {
+      "product1": {
+        "title": "Bar Counter",
+        "description": "An elegant and convenient solution for homes or commercial spaces. Can be made from wood, metal, or composite materials, with optional lighting and storage shelves."
+      },
+      "product2": {
+        "title": "Decorative Coat Rack",
+        "description": "A blend of functionality and aesthetics. Ideal for hanging clothes, hats, and accessories while enhancing the room’s decor."
+      },
+      "product3": {
+        "title": "Hooks",
+        "description": "Practical yet stylish accessories for hallways, bathrooms, or closets. Available in various designs."
+      },
+      "product4": {
+        "title": "Wooden Statuette",
+        "description": "A unique decor piece that adds warmth and charm to any interior. Handcrafted from natural wood with elegant designs, making it a perfect gift or a striking shelf accent."
+      },
+      "product5": {
+        "title": "Company Logo",
+        "description": "A stylish and professional solution for corporate branding. Can be crafted in various styles for display in reception areas, meeting rooms, or as a gift to partners."
+      },
+      "product6": {
+        "title": "Emblem Frame",
+        "description": "An exquisite interior decoration that emphasizes status and individuality. Perfect for offices, living rooms, and corporate spaces. Made from high-quality materials with detailed craftsmanship."
+      }
     }
   }

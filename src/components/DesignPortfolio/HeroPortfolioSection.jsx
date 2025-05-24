@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/components/DesignPortfolio/HeroPortfolioSection.css';
-import portfolio1 from '../../images/portfolio1.png'
-import portfolio2 from '../../images/portfolio2.png'
+import portfolio1 from '../../images/portfolio1.jpg'
+import portfolio2 from '../../images/portfolio2.jpg'
 import { useTranslation } from 'react-i18next';
 
 const HeroPortfolioSection = () => {

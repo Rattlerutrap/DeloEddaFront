@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../styles/components/Examples/HeroExamplesSection.css';
 import { Link } from 'react-router-dom';
-import shop1 from '../../images/shop1.png'
-import shop2 from '../../images/shop2.png'
+import shop1 from '../../images/good1.jpg'
+import shop2 from '../../images/good2.jpg'
 import { useTranslation } from 'react-i18next';
 
 const HeroExamplesSection = () => {

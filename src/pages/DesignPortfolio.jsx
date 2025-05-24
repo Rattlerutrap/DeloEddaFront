@@ -1,7 +1,7 @@
 import HeroPortfolioSection from "../components/DesignPortfolio/HeroPortfolioSection";
 import DesignesSection from "../components/DesignPortfolio/DesignesSection";
 import ProcessSection from "../components/DesignPortfolio/ProcessSection";
-import RectangleSection from "../components/DesignPortfolio/RectangleSection";
+// import RectangleSection from "../components/DesignPortfolio/RectangleSection";
 
 function DesignPortfolio() {
     return (
@@ -10,7 +10,7 @@ function DesignPortfolio() {
                 <HeroPortfolioSection />
                 <DesignesSection />
                 <ProcessSection />
-                <RectangleSection />
+                {/* <RectangleSection /> */}
             </main>
         </div>
     );

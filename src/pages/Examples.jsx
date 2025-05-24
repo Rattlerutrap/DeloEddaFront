@@ -1,6 +1,6 @@
 import HeroExamplesSection from '../components/Examples/HeroExamplesSection'
 import ExamplesSection from '../components/Examples/ExamplesSection'
-import TextSection from '../components/Examples/TextSection'
+// import TextSection from '../components/Examples/TextSection'
 
 
 function Examples() {
@@ -9,7 +9,7 @@ function Examples() {
             <main>
                 <HeroExamplesSection />
                 <ExamplesSection />
-                <TextSection />
+                {/* <TextSection /> */}
             </main>
         </div>
     );

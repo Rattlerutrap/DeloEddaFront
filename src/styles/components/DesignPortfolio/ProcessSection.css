@@ -1,6 +1,6 @@
 .processSection {
-    background: url('../../../images/rectangle.jpg');
-    background-size: 1000px 1450px;
+    background: url('../../../images/nochess.jpg');
+    background-size: 995px 898px;
     background-position: left;
     background-repeat: no-repeat;
     margin-left: 350px;
@@ -17,6 +17,8 @@
 .content-section p {
     font-size:  20px;
     font-weight: 550;
+    background-color: rgba(231, 76, 60, 0.5);
+    border-radius: 15px;
 }
 
 .drop-cap {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../../styles/components/About/Story.css';
-import Rectangle from '../../images/rectangle.jpg'
+import BigLogo from '../../images/biglogo.jpg'
 import { useTranslation } from 'react-i18next';
 
 const Story = () => {
@@ -22,7 +22,7 @@ const Story = () => {
             <div className="container">
                 <div className="content-block">
                     <div>
-                        <img src={Rectangle} alt="rect" />
+                        <img src={BigLogo} alt="logo" />
                     </div>
                     <div className="text-container">
                         <div className={`text-content-story ${currentText === 1 ? 'active' : ''} ${isAnimating ? 'exiting' : ''}`}>
