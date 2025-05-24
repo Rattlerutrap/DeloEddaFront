@@ -17,19 +17,16 @@ const FeaturesSection = () => {
           <div className="feature-card">
             <img src={example1} alt="example1" />
             <h3>{t('home.features.h31')}</h3>
-            <p>{t('home.features.p1')}</p>
           </div>
 
           <div className="feature-card">
             <img src={example2} alt="example2" />
             <h3>{t('home.features.h32')}</h3>
-            <p>{t('home.features.p2')}</p>
           </div>
 
           <div className="feature-card">
             <img src={example3} alt="example3" />
             <h3>{t('home.features.h33')}</h3>
-            <p>{t('home.features.p3')}</p>
           </div>
         </div>
       </div>

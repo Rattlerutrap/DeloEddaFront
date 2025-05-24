@@ -10,12 +10,9 @@
     "features": {
       "h3": "Наши проекты созданы для того, чтобы вдохновлять и преображать ваше жилое пространство.",
       "h2": "Познакомьтесь с искусством дизайна мебели",
-      "h31": "Subheading",
-      "h32": "Subheading",
-      "h33": "Subheading",
-      "p1": "Body text for whatever you’d like to share more.",
-      "p2": "Body text for whatever you’d like to share more.",
-      "p3": "Body text for whatever you’d like to share more."
+      "h31": "Столы и скамьи",
+      "h32": "Барная стойка",
+      "h33": "Шкафы"
     },
     "phylosophy": {
       "h2": "Наша философия",
@@ -30,12 +27,12 @@
     },
     "reviews": {
       "h2": "Отзывы",
-      "p1": "“A terrific piece of praise”",
-      "p2": "“A fantastic bit of feedback”",
-      "p3": "“A genuinely glowing review”",
-      "h31": "Name",
-      "h32": "Name",
-      "h33": "Name"
+      "p1": "“Отличная мебель на заказ — качество и индивидуальный подход на высоте!”",
+      "p2": "“Быстро, красиво и точно в срок — рекомендую!”",
+      "p3": "“Качество материалов и сборки выше всяких похвал!”",
+      "h31": "Сергей",
+      "h32": "Марина",
+      "h33": "Снежана"
     }
   },
   "examples": {

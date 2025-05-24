@@ -10,12 +10,9 @@
       "features": {
         "h3": "Our designs are crafted to inspire and transform your living spaces.",
         "h2": "Experience the Art of Furniture Design",
-        "h31": "Subheading",
-        "h32": "Subheading",
-        "h33": "Subheading",
-        "p1": "Body text for whatever you’d like to share more.",
-        "p2": "Body text for whatever you’d like to share more.",
-        "p3": "Body text for whatever you’d like to share more."
+        "h31": "Tables and benches",
+        "h32": "Bar counter",
+        "h33": "Wardrobes"
       },
       "phylosophy": {
         "h2": "Our Philosophy",
@@ -30,12 +27,12 @@
       },
       "reviews": {
         "h2": "Reviews",
-        "p1": "“A terrific piece of praise”",
-        "p2": "“A fantastic bit of feedback”",
-        "p3": "“A genuinely glowing review”",
-        "h31": "Name",
-        "h32": "Name",
-        "h33": "Name"
+        "p1": "“Great custom furniture — top-notch quality and personalized service!”",
+        "p2": "“Fast, beautiful, and delivered right on time — highly recommend!”",
+        "p3": "“The quality of materials and craftsmanship is beyond praise!”",
+        "h31": "Sergey",
+        "h32": "Marina",
+        "h33": "Snezhana"
       }
     },
     "examples": {
